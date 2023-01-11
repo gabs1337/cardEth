@@ -1,0 +1,178 @@
+body{
+    height: 100vh;
+    background-color: #0d192b;
+    font-family: 'Outfit' sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+ background-color: #14253d;
+    box-shadow: 0 0 30px #031126 ;
+    border-color: hsl(215, 100%, 2%);
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    width: 19em;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.banner_card{
+    padding: 20px;
+    
+}
+.cor{
+    position: relative;
+    height: 260px;
+    
+}
+.img_olhin{
+    position: relative;
+    top: 40%;
+    left: 40%;
+    opacity: 100%;
+    display: none;
+}
+.olhinho{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    top: 0%;
+    left: 0%;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.olhinho:hover{
+    background-color: #00fff7;
+    opacity:70%;
+}
+.olhinho:hover>.img_olhin{
+    display: block;
+
+}
+.img_banner{
+    height: 260px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: all .5s;
+    
+}
+.desc_card>h3{
+    font-family: 'Outfit';
+    text-shadow: black;
+   color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h3:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #00fff7;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+.desc_card>p{
+    font-family: 'Outfit';
+    color: silver;
+    font-family: 'Outfit' sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 17px;
+
+}
+
+.coin{
+margin-top: 20px;
+ display: flex;
+ 
+}
+h5{
+    margin-left: 5px;
+    color: #00fff7;
+    text-decoration: thin solid;
+    font-family: 'Outfit';
+
+}
+
+
+.lifetime{
+    margin-left: 5px;
+    color: silver;
+    text-decoration: thin solid;
+    font-family: 'Outfit';
+}
+.time
+{
+margin-top: 20px;
+ display: flex;
+
+}
+.conteudo_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}   
+
+.principal_credits{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+.credits{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 7px;
+      
+    
+}
+.line{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(192, 192, 192, 0.179);
+}
+
+
+.avatar{
+    content: url(/img/umaru.gif);
+    height: 30px;
+    width: 30px;
+    border-color: white;
+    border-style: outset;
+    border-radius: 100%;
+}
+.avatar:hover{
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
+}
+
+.credits>p{
+    margin-left: 10px;
+    color: silver;
+    font-size: 14px;
+}
+.credits>h4{
+    margin-left:5px;
+    color: white;
+}
+
+.credits>h4:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #00fff7;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+
+}
+
+
+
